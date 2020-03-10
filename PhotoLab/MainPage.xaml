@@ -163,7 +163,7 @@
         <TextBlock x:Name="TitleTextBlock"
                    Text="Collection"
                    Style="{StaticResource TitleTextBlockStyle}"
-                   Margin="24,0,0,24" />
+                   Margin="25,0,0,25" />
 
         <CommandBar x:Name="MainCommandBar"
                     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
@@ -190,7 +190,6 @@
                   ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}"
                   ItemContainerStyle="{StaticResource ImageGridView_DefaultItemContainerStyle}">
         </GridView>
-        <TextBlock HorizontalAlignment="Center" Height="457" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Center" Width="58" Margin="0,0,0,0"/>
 
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup>
